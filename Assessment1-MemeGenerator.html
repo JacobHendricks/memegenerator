@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assessment1-MemeGenerator.css">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <section>
+      <h1>Meme Generator</h1>
+      <h2>Create your own Memes!</h2>
+      <form action="" id="add-Meme">
+        <p>
+          <label for="">Image URL 
+            <input type="text" name="url" id="url" placeholder="What's the URL for your meme image?">
+          </label>
+        </p>
+        <p>
+          <label for="">Text on Top
+            <input type="text" name="topText" id="topText" placeholder="(Optional) What text do you want at the top of the meme?">
+          </label>
+        </p>
+        <p>
+          <label for="">Text on Bottom
+            <input type="text" name="bottomText" id="bottomText" placeholder="(Optional) What text do you want at the bottom of the meme?">
+          </label>
+        </p>
+        <input type="submit" name="" id="submit">
+      </form>
+  </section>
+  <div id="memeList">
+    <div class="meme">
+      <div class="upperText">Upper</div>
+      <div class="lowerText">Lower</div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1yCAnWze1-qu-KQY75TIdMbLdDs3Y4T4WQegXF9Tspo2xI8v" alt="">
+      <button>X</button>
+    </div>
+  </div>
+  <script src="Assessment1-MemeGenerator.JS"></script>
+</body>
+</html>
