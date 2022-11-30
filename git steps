@@ -1,0 +1,9 @@
+mkdir memegenerator
+  146  mkdir memegenerator && cd memegenerator/
+  147  git init
+  150  git add .
+  151  git commit -m "initial commit jacob"
+  152  git push
+  153  git remote add origin https://github.com/JacobHendricks/memegenerator.git
+  155  git push --set-upstream origin main
+  156  code .
